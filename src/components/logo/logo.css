@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Poppins&display=swap');
+.logo{
+    background-color: transparent;
+}
+.logo h1{
+    font-size: 64px;
+    line-height: 64px;
+    font-family: 'Just Another Hand', cursive;
+}
+.logo p{
+    font-size: 18px;
+    position: relative;
+    margin-top: -15px;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;    
+}
