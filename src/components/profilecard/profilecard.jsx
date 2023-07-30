@@ -6,7 +6,7 @@ const ProfileCard = () => {
   const isiContent =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate explicabo mollitia quod beatae ut repudiandae libero id voluptas illo harum, quasi ex! Aspernatur esse velit recusandae nihil! Voluptas, consequuntur!";
   const jabatan = "Tukang Las";
-  const judulKartu = "Desa Lebak Wangi";
+  const judulKartu = "Desa Lebakwangi";
   return (
     <>
       <div
@@ -24,7 +24,7 @@ const ProfileCard = () => {
             style={{ width: "200px", height: "240px" }}
           />
           <div
-            className="relative bg-white rounded-sm text-center py-2 flex flex-col"
+            className="relative bg-white rounded-sm text-center py-2 flex flex-col shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4)]"
             style={{
               width: "250px",
               height: "60px",

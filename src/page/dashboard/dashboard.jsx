@@ -4,6 +4,7 @@ import logo from "./../../harta/img/logo.png"
 import Content1 from "../../components/content1/content1";
 import Content3 from "../../components/content3/content3";
 import ProfileCard from "../../components/profilecard/profilecard";
+import ProductCard from "../../components/produkcard/produkCard";
 
 const Dashboard = () => {
     return(
@@ -16,8 +17,11 @@ const Dashboard = () => {
             <Content1 />
             <ProfileCard />
         </div>
-        <div className="static my-5 mx-5">
+        <div className="static my-5 flex flex-row overflow-hidden">
             <Content3/>
+        </div>
+        <div className="static my-5 mx-5">
+            <ProductCard/>
         </div>
         </>
     )
