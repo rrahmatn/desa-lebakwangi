@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/navbar";
 import logo from "./../../harta/img/logo.png"
 import Content1 from "../../components/content1/content1";
 import Content3 from "../../components/content3/content3";
+import ProfileCard from "../../components/profilecard/profilecard";
 
 const Dashboard = () => {
     return(
@@ -13,6 +14,7 @@ const Dashboard = () => {
         </div>
         <div className="static ">
             <Content1 />
+            <ProfileCard />
         </div>
         <div className="static my-5 mx-5">
             <Content3/>
