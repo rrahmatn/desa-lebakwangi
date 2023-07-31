@@ -5,10 +5,10 @@ const Content3 = () => {
   return (
     <>
       <div
-        className="bg-[#003D38] flex mx-4 items-center justify-center rounded-xl"
-        style={{ width: "700px", height: "310px" }}
+        className="bg-[#003D38] w-96 h-56 flex flex-row mx-4 items-center justify-center rounded-xl"
+        
       >
-        <img className="h-full w-auto" src={`content3/${sample}`} alt="gambar produk" />
+        <img className="h-full w-auto overflow-hidden" src={`content3/${sample}`} alt="gambar produk" />
       </div>
     </>
   );

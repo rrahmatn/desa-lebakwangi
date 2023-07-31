@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const ProfileCard = () => {
-  const nametag = "Ridwan Kamil Sp.d";
+  const nametag = "Ridwan Kamil S.pd";
   const isiContent =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate explicabo mollitia quod beatae ut repudiandae libero id voluptas illo harum, quasi ex! Aspernatur esse velit recusandae nihil! Voluptas, consequuntur!";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate explicabo mollitia quod beatae ut repudiandae libero id voluptas illo harum, quasi ex! Aspernatur esse velit recusandae nihil! Voluptas, consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate explicabo mollitia quod beatae ut repudiandae libero id voluptas illo harum, quasi ex! Aspernatur esse velit recusandae nihil! Voluptas, consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate explicabo mollitia quod beatae ut repudiandae libero id voluptas illo harum, quasi ex! Aspernatur esse velit recusandae nihil! Voluptas, consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate explicabo mollitia quod beatae ut repudiandae libero id voluptas illo harum, quasi ex! Aspernatur esse velit recusandae nihil! Voluptas, consequuntur!";
   const jabatan = "Tukang Las";
   const judulKartu = "Desa Lebakwangi";
   return (
     <>
       <div
         className="bg-[#003D38] display flex flex-row my-2 mx-auto py-1 rounded-2xl"
-        style={{ width: "860px", height: "440px" }}
+        style={{ width: "860px", height: "400px" }}
       >
         <div
           className="w-1/4 relative my-auto "
