@@ -55,8 +55,8 @@ const ProductCard = () => {
               <BsFillArrowRightCircleFill className="text-[28px] cursor-pointer" />
             </div>
           </div>
-          <div className="flex flex-col w-1/2 pl-3 ">
-            <div className="flex flex-row w-full">
+          <div className="flex flex-col w-1/2 pl-5 ">
+            <div className="flex flex-row w-full pr-8">
               <div className="flex flex-row w-fit h-fit items-center justify-center mx-auto px-5 py-1 border-b-2 border-white cursor-pointer hover:text-green-500 hover:border-green-500">
                 Dusun 1
               </div>

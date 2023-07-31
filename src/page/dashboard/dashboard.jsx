@@ -12,8 +12,8 @@ const Dashboard = () => {
   return (
     <>
       <div className="flex w-full flex-col items-center justify-start">
-        <div className="flex flex-row w-full h-96 overflow-hidden items-center content-center bg-blacks">
-          <img src={imgDashboard} alt="content1" className=" h-full"   />  
+        <div className="flex flex-col w-full h-96 overflow-x-hidden items-center content-center bg-black">
+          <img src={imgDashboard} alt="content1" className=" h-full w-fit"   />  
         </div>
 
         <div className="flex flex-row w-full justify-between absolute pt-9 px-14">
@@ -22,10 +22,10 @@ const Dashboard = () => {
             <Navbar />
           </div>
         </div>
-        <div className="static " style={{ marginTop: "-100px" }}>
+        <div className="static " style={{ marginTop: "-90px" }}>
           <Content1 />
         </div>
-        <div className="flex" style={{ marginTop: "70px" }}>
+        <div className="flex" style={{ marginTop: "30px" }}>
           <ProfileCard />
         </div>
         <div className="static my-5 flex flex-row overflow-hidden">

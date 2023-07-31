@@ -11,7 +11,7 @@ const ProfileCard = () => {
     <>
       <div
         className="bg-[#003D38] display flex flex-row my-2 mx-auto py-1 rounded-2xl"
-        style={{ width: "760px", height: "340px" }}
+        style={{ width: "860px", height: "440px" }}
       >
         <div
           className="w-1/4 relative my-auto "
@@ -21,14 +21,14 @@ const ProfileCard = () => {
             src="profile/ridwan-kamil.png"
             alt="foto pak kades"
             className="rounded-xl"
-            style={{ width: "200px", height: "240px" }}
+            style={{ width: "300px", height: "280px" }}
           />
           <div
-            className="relative bg-white rounded-sm text-center py-2 flex flex-col shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4)]"
+            className="relative bg-white rounded-xl text-center py-2 flex flex-col shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]"
             style={{
-              width: "250px",
+              width: "320px",
               height: "60px",
-              marginLeft: "-30px",
+              marginLeft: "-55px",
               marginTop: "-60px",
             }}
           >

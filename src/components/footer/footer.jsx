@@ -1,8 +1,10 @@
 import React from "react";
 import Logo from "./../../harta/img/logo.png";
 import Imgfooter from "./../../harta/img/footer.png";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineInstagram , AiOutlineYoutube} from "react-icons/ai";
 import { Link } from "react-router-dom";
+import {TiSocialFacebookCircular} from 'react-icons/ti';
+import {RxTwitterLogo} from 'react-icons/rx';
 
 const Footer = () => {
   return (
@@ -29,14 +31,14 @@ const Footer = () => {
               <a href="instagram.com" className="text-[24px]">
                 <AiOutlineInstagram />
               </a>
-              <a href="instagram.com" className="text-[24px]">
-                <AiOutlineInstagram />
+              <a href="instagram.com" className="text-[28px]">
+                <TiSocialFacebookCircular />
               </a>
               <a href="instagram.com" className="text-[24px]">
-                <AiOutlineInstagram />
+                <RxTwitterLogo />
               </a>
               <a href="instagram.com" className="text-[24px]">
-                <AiOutlineInstagram />
+                <AiOutlineYoutube />
               </a>
             </div>
             <div className="flex text-[12px] pl-5">
