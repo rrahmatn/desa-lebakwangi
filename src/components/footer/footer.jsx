@@ -9,7 +9,7 @@ import {RxTwitterLogo} from 'react-icons/rx';
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[#00A18E] h-fit flex flex-col text-white py-5 px-4 ">
+      <div className="w-full bg-[#00A18E] h-fit flex flex-col text-white py-5 px-4 mt-9">
         <div className="flex flex-row w-full h-fit justify-between border-b-2 border-white pb-3">
           <div className="flex flex-col w-1/4 pl-6">
             <img src={Logo} alt="Logo Lobakwangi" className="w-1/3 h-fit" />
